@@ -27,7 +27,6 @@ int SortAnalysis(auto& A )
         } 
      
      A[j + 1] = v;
- 
    }
   
   return count;
@@ -54,6 +53,5 @@ int main()
    cout<<"| "<<SortAnalysis(inputs);
     
    cerr<<"\t|"<<endl<<endl<<"Program finished."<<endl<<endl;
-
     return 0;
 }
